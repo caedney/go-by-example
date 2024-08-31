@@ -1,6 +1,6 @@
 # Constants
 
-Go supports constants of character, string, boolean, and numeric values.
+Go supports _constants_ of character, string, boolean, and numeric values.
 
 `const` declares a constant value.
 

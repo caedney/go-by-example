@@ -1,6 +1,6 @@
 # Variables
 
-In Go, variables are explicitly declared and used by the compiler to e.g. check type-correctness of function calls.
+In Go, _variables_ are explicitly declared and used by the compiler to e.g. check type-correctness of function calls.
 
 `var` declares 1 or more variables.
 
