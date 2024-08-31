@@ -1,3 +1,3 @@
-module github.com/go-by-example
+module go-by-example
 
-go 1.22.6
+go 1.23

@@ -21,3 +21,11 @@ go mod init example/hello
 ```
 
 In actual development, the module path will typically be the repository location where your source code will be kept. For example, the module path might be `github.com/module`. If you plan to publish your module for others to use, the module path must be a location from which Go tools can download your module.
+
+### Updating Go
+
+Change the version of Go in a project
+
+```sh
+go mod edit -go=1.23
+```
