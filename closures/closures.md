@@ -35,8 +35,6 @@ newInts := intSeq()
 fmt.Println(newInts()) // 1
 ```
 
-## Go Run
-
 ```sh
 go run closures/main.go
 # 1

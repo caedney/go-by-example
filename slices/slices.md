@@ -101,8 +101,6 @@ fmt.Println("2d: ", twoD)
 
 Note that while slices are different types than arrays, they are rendered similarly by `fmt.Println`.
 
-## Go Run
-
 ```sh
 go run slices/main.go
 # uninit: [] true true

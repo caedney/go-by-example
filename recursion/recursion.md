@@ -31,8 +31,6 @@ fib = func(n int) int {
 }
 ```
 
-## Go Run
-
 ```sh
 go run recursion/main.go
 # 5040

@@ -61,8 +61,6 @@ Although we could also specify them explicitly.
 _ = SlicesIndex[[]string, string](s, "zoo")
 ```
 
-## Go Run
-
 ```sh
 go run generics/main.go
 # index of zoo: 2

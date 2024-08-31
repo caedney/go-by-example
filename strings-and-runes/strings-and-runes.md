@@ -76,8 +76,6 @@ func examineRune(r rune) {
 }
 ```
 
-## Go Run
-
 ```sh
 go run strings-and-runes/main.go
 # Len: 18

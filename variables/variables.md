@@ -37,8 +37,6 @@ f := "apple"
 fmt.Println(f) // apple
 ```
 
-## Go Run
-
 ```sh
 go run variables/main.go
 # initial

@@ -63,8 +63,6 @@ Suppose we check some predicates here to determine the next state…
 }
 ```
 
-## Go Run
-
 ```sh
 go run enums/main.go
 # connected

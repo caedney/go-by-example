@@ -57,8 +57,6 @@ for i, c := range "go" {
 // 1 111
 ```
 
-## Go Run
-
 ```sh
 go run range-over-built-in-types/main.go
 # sum: 9

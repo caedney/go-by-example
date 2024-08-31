@@ -55,8 +55,6 @@ var d describer = co
 fmt.Println("describer:", d.describe()) // describer: base with num=1
 ```
 
-## Go Run
-
 ```sh
 go run struct-embedding/main.go
 # co={num: 1, str: some name}

@@ -87,8 +87,6 @@ dog := struct {
 fmt.Println(dog)
 ```
 
-## Go Run
-
 ```sh
 go run structs/main.go
 # {Bob 20}

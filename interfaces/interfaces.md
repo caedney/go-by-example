@@ -69,8 +69,6 @@ func main() {
 }
 ```
 
-## Go Run
-
 ```sh
 go run interfaces/main.go
 # {3 4}

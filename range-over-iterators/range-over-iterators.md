@@ -82,8 +82,6 @@ for n := range genFib() {
 // 8
 ```
 
-## Go Run
-
 ```sh
 go run range-over-iterators/main.go
 # 10

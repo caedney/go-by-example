@@ -34,8 +34,6 @@ fmt.Println("area: ", rp.area()) // area: 50
 fmt.Println("perim:", rp.perim()) // perim: 30
 ```
 
-## Go Run
-
 ```sh
 go run methods/main.go
 # area:  50

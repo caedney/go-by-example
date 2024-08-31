@@ -41,8 +41,6 @@ fmt.Println("pointer:", &i) // pointer: 0x42131100
 
 `zeroval` doesn’t change the `i` in main, but `zeroptr` does because it has a reference to the memory address for that variable.
 
-## Go Run
-
 ```sh
 go run pointers/main.go
 # initial: 1

@@ -33,8 +33,6 @@ A number can be given a type by using it in a context that requires one, such as
 fmt.Println(math.Sin(n)) // -0.28470407323754404
 ```
 
-## Go Run
-
 ```sh
 go run constants/main.go
 # constant

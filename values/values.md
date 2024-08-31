@@ -23,8 +23,6 @@ fmt.Println(true || false) // true
 fmt.Println(!true) // false
 ```
 
-## Go Run
-
 ```sh
 go run values/main.go
 # golang

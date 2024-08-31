@@ -42,8 +42,6 @@ if num := 9; num < 0 {
 
 Note that you don’t need parentheses around conditions in Go, but that the braces are required.
 
-## Go Run
-
 ```sh
 go run if-else/main.go
 # 7 is odd

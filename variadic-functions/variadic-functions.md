@@ -36,8 +36,6 @@ nums := []int{1, 2, 3, 4}
 sum(nums...) // [1 2 3 4] 10
 ```
 
-## Go Run
-
 ```sh
 go run variadic-functions/main.go
 # [1 2] 3

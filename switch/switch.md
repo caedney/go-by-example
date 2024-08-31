@@ -58,8 +58,6 @@ whatAmI(1)
 whatAmI("hey")
 ```
 
-## Go Run
-
 ```sh
 go run switch/main.go
 # Write 2 as two

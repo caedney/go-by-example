@@ -60,8 +60,6 @@ for n := range 6 {
 // odd 5
 ```
 
-## Go Run
-
 ```sh
 go run for/main.go
 # 1

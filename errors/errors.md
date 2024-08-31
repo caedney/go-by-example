@@ -59,8 +59,6 @@ for i := range 5 {
 }
 ```
 
-## Go Run
-
 ```sh
 go run errors/main.go
 # f worked: 10

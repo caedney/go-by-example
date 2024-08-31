@@ -25,8 +25,6 @@ _, c := vals()
 fmt.Println(c) // 7
 ```
 
-## Go Run
-
 ```sh
 go run multiple-return-values/main.go
 # 3

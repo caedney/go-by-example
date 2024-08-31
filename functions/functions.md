@@ -28,8 +28,6 @@ res = plusPlus(1, 2, 3)
 fmt.Println("1 + 2 + 3 =", res)
 ```
 
-## Go Run
-
 ```sh
 go run functions/main.go
 # 1 + 2 = 3

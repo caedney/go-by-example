@@ -81,8 +81,6 @@ if maps.Equal(n, n2) {
 
 Note that maps appear in the form `map[k:v k:v]` when printed with `fmt.Println`.
 
-## Go Run
-
 ```sh
 go run maps/main.go
 # map: map[k1:7 k2:13]
