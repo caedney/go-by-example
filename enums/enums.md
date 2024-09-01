@@ -44,7 +44,7 @@ func main() {
 }
 ```
 
-`transition` emulates a state transition for a server; it takes the existing state and returns a new state. Suppose we check some predicates here to determine the next state...
+`transition` emulates a state transition for a server; it takes the existing state and returns a new state.
 
 ```go
 func transition(s ServerState) ServerState {
@@ -52,9 +52,7 @@ func transition(s ServerState) ServerState {
     case StateIdle:
         return StateConnected
     case StateConnected, StateRetrying:
-Suppose we check some predicates here to determine the next state…
-
-        return StateIdle
+        return StateIdle // Suppose we check some predicates here to determine the next state...
     case StateError:
         return StateError
     default:

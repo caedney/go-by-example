@@ -31,13 +31,26 @@ var ErrPower = fmt.Errorf("can't boil water")
 
 We can wrap errors with higher-level errors to add context. The simplest way to do this is with the `%w` verb in `fmt.Errorf`. Wrapped errors create a logical chain (A wraps B, which wraps C, etc.) that can be queried with functions like `errors.Is` and `errors.As`.
 
+```go
+func makeTea(arg int) error {
+    if arg == 2 {
+        return ErrOutOfTea
+    } else if arg == 4 {
+        return fmt.Errorf("making tea: %w", ErrPower)
+    }
+    return nil
+}
+```
+
 It’s common to use an inline error check in the `if` line.
 
 ```go
-if r, e := f(i); e != nil {
-    fmt.Println("f failed:", e)
-} else {
-    fmt.Println("f worked:", r)
+for _, i := range []int{7, 42} {
+    if r, e := f(i); e != nil {
+        fmt.Println("f failed:", e)
+    } else {
+        fmt.Println("f worked:", r)
+    }
 }
 ```
 
