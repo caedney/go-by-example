@@ -38,6 +38,6 @@ go build -o hello-world hello-world/main.go
 We can then execute our code to see our greeting.
 
 ```sh
-./main
+./hello-world/main
 # Hello, World!
 ```
