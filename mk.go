@@ -21,7 +21,7 @@ func main() {
 	}
 
 	// fmt.Sprintf("%[1]v/%[1]v.md", dir)
-	if err := os.WriteFile(dir+"/"+dir+".md", []byte("# "+title), os.ModePerm); err != nil {
+	if err := os.WriteFile(dir+"/"+dir+".md", []byte("# "+title+"\n"), os.ModePerm); err != nil {
 		fmt.Print(err)
 	}
 
